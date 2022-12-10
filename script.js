@@ -9,8 +9,12 @@ anime({
         value: '1turn',
         easing: 'easeInOutSine'
     },
+    opacity: '0.5',
+    borderRadius: '20%',
+    border: '2px solid black',
     delay: function(el, i, l){return i * 1000},
-    autoplay: false
+    autoplay: false,
+    loop: true
 })
 
 
