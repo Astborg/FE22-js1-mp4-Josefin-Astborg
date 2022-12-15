@@ -21,6 +21,9 @@ anime({
 document.querySelector('.play').onclick = playPause.play
 document.querySelector('.pause').onclick = playPause.pause 
 
+const stopBtn = document.getElementById('stop')
+stopBtn.addEventListener('click', stop)
+
 function stop(){
     location. reload()
 }
